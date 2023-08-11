@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Form Handling</h1>
+
+    <form action="#" method="get" e enctype="multipart/form-data">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="name">Enter your name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" name="Username">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="pwd">Enter your password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pwd" name="Userpassword">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="City">Select city</label>
+                    </td>
+                    <td>
+
+                        <select name="city" id="city">
+                            <option>Select City</option>
+                            <option value="del">delhi</option>
+                            <option value="noida">noida</option>
+                            <option value="mum">mumbai</option>
+                            <option value="pune">pune</option>
+                            <option value="motihari">motihari</option>
+
+                            <optgroup label="Bihar">
+                                <option value="Motiahri">Motihari</option>
+                                <option value="Areraj">Areraj</option>
+                                <option value="Sirni Nara">Sirni Nara</option>
+                            </optgroup>
+
+                            <optgroup label="Uttar Pradesh">
+                                <option value="Noida">Noida</option>
+                                <option value="Greater Noida">Greater Noida</option>
+                                <option value="Lucknow">Lucknow</option>
+
+
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Select Gender</td>
+                    <td>
+                        <input type="radio" id="M" name="gender" value="M">
+                        <label for="M">Male</label>
+
+                        <input type="radio" id="F" name="gender" value="F">
+                        <label for="F">Female</label>
+
+                        <input type="radio" id="O" name="gender" value="O">
+                        <label for="O">Other</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Select Course
+                    </td>
+                    <td>
+                        <input type="Checkbox"> B.tech
+                        <input type="Checkbox"> Bca
+                        <input type="Checkbox"> M.tech
+                        <input type="Checkbox"> B.Pharma
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Upload Picture</td>
+                    <td>
+                        <input type="File">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Login Now...">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+</body>
+
+</html>

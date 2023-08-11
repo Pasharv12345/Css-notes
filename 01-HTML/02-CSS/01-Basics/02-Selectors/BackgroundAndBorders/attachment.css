@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+div {
+    height: 700px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#div_1 {
+    background-image: url("https://cdn.britannica.com/75/152475-050-DA89FF0A/Red-Fort-Old-Delhi-India.jpg");
+}
+
+#div_2 {
+    background-image: url("https://plus.unsplash.com/premium_photo-1661919589683-f11880119fb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVkJTIwZm9ydHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+}
+
+#div_3 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1200px-Delhi_fort.jpg");
+}
+
+#div_4 {
+    background-image: url("https://cdn.britannica.com/84/124684-004-07547A0D/Red-Fort-Old-Delhi-India.jpg");
+}
+
+#div_5 {
+    background-image: url("https://www.hoteldekho.com/blog/wp-content/uploads/2021/10/delhi-red-fort-1-2.jpg");
+}
+
+#div_6 {
+    background-image: url("https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Red-Fort_1400x600-1200x720.jpg");
+}

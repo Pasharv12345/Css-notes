@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #section_1,
+        #section_2 {
+            background-color: lightblue;
+        }
+
+
+        .title {
+            text-align: center;
+            font-size: 40px;
+            color: orange;
+        }
+
+        .primary-color {
+            color: blue;
+        }
+
+        #section_1 .title {
+            color: red;
+        }
+
+        #section_3 .col-2 .product .desc h4 {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Basic Selectors</h1>
+
+
+    <!-- Id - identity
+    - it is always unique
+    - a tag cannot have multiple IDs
+    - an IDs cannot be used on multiple tags 
+    - represented by #-->
+
+
+    <!-- Class - Grouping
+    - it is used to group elements who looks similar
+    - a tag can have multiple classes
+    - a class can be used any number of times 
+    - represented by . dot -->
+
+    <div id="section_1">
+        <div class="wrapper">
+            <h2 class="title primary-color">This is a heading</h2>
+            <h2>This is a heading</h2>
+            <h2>This is a heading</h2>
+        </div>
+        <hr>
+    </div>
+
+    <div id="section_2">
+        <div class="wrapper">
+            <h2 class="title">This is a heading</h2>
+            <h2>This is a heading</h2>
+            <h2>This is a heading</h2>
+        </div>
+
+
+    <div id="content">
+        <div id="section_3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <div class="product">
+                            <div class="image">
+                                <h4>image</h4>
+                                <img src="" alt="">
+                            </div>
+                            <div class="desc">
+                                <h4>apple iphone 14</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="product">
+                            <div class="image">
+                                <h4>image</h4>
+                                <img src="" alt="">
+                            </div>
+                            <div class="desc">
+                                <h4>apple iphone 12</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="product">
+                            <div class="image">
+                                <h4>image</h4>
+                                <img src="" alt="">
+                            </div>
+                            <div class="desc">
+                                <h4>one plus nord c2 lite</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent>h2 {
+            color: red;
+        }
+
+        #parent .child h2 {
+            color: green;
+        }
+
+        #navigation>ul>li>a {
+            color: blue;
+            text-decoration: none;
+
+        }
+
+        /* #parent + h2 {
+            color: red;
+        } */
+        #parent~h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Combinators</h1>
+    <!-- +, >, ~ -->
+
+    <div id="parent">
+        <h2>This is a heading</h2>
+        <h2>This is another heading</h2>
+
+
+        <div class="child">
+            <h2>This is nested heading</h2>
+            <h2>This is nested heading</h2>
+        </div>
+
+        <h2>This is also a heading</h2>
+
+    </div>
+
+    <hr>
+
+    <h2>This heading is outside parent element</h2>
+
+    <h2>This heading is outside parent element</h2>
+
+    <h2>This heading is outside parent element</h2>
+
+
+    <div id="navigation">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Electronics</a>
+                <ul>
+                    <li>
+                        <a href="#">tv</a>
+                    </li>
+                    <li>
+                        <a href="#">freeze</a>
+                    </li>
+                    <li>
+                        <a href="#">washing</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">sports</a>
+            </li>
+            <ul>
+                <li>
+                    <a href="#">cricket</a>
+                </li>
+                <li>
+                    <a href="#">hockey</a>
+                </li>
+                <li>
+                    <a href="#">football</a>
+                </li>
+            </ul>
+            <li>
+                <a href="#">online shope</a>
+            </li>
+            <ul>
+                <li>
+                    <a href="#">tv</a>
+                </li>
+                <li>
+                    <a href="#">mobile phone</a>
+                </li>
+                <li>
+                    <a href="#">car dekho</a>
+                </li>
+            </ul>
+        </ul>
+
+    </div>
+
+    <h2>This heading is outside parent element</h2>
+
+    <h2>This heading is outside parent element</h2>
+
+    <h2>This heading is outside parent element</h2>
+
+
+
+
+</body>
+
+</html>
